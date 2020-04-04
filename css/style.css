@@ -74,7 +74,7 @@ body {
 /* ----------------------------------------------------------- */
 
 .main-title {
-    padding: 50px 20px 15px;
+    padding: 80px 20px 15px;
     line-height: 1.5;
 }
 
@@ -82,7 +82,7 @@ body {
 
 .info {
     width: 520px;
-    margin: 0 auto 50px;
+    margin: 0 auto 70px;
     color: var(--gray-blue);
 }
 
