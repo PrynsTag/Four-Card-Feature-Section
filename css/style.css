@@ -152,6 +152,15 @@ body {
     .wrapper {
         grid-template-columns: 1fr;
     }
+
+    .attribution {
+        position: absolute;
+        bottom: -555px;
+        width: 100%;
+        /* left: 50%; */
+        /* transform: translate(-50%); */
+
+    }
 }
 
 @media only screen and (max-width: 425px) {
