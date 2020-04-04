@@ -82,6 +82,8 @@ body {
 
 .info {
     width: 520px;
+    line-height: 150%;
+    letter-spacing: 1px;
     margin: 0 auto 70px;
     color: var(--gray-blue);
 }
@@ -130,12 +132,10 @@ body {
     }
 
     .info {
-        margin-bottom: 50px;
         width: 600px;
-        line-height: 150%;
-        letter-spacing: 1px;
-        margin: 0 auto 40px;
+        margin: 0 auto 70px;
     }
+
 
     .supervisor { left: 0; }
 
@@ -149,6 +149,7 @@ body {
 
 @media only screen and (max-width: 1440px) {
     body { height: 100vh; }
+
     .supervisor { left: 100px; }
 
     .calculator { right: 100px; }
