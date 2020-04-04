@@ -133,7 +133,7 @@ body {
 
     .info {
         margin-bottom: 50px;
-        width: 350px;
+        width: 600px;
         line-height: 150%;
         letter-spacing: 1px;
         margin: 0 auto 40px;
@@ -151,6 +151,11 @@ body {
 @media only screen and (max-width: 1215px) {
     .wrapper {
         grid-template-columns: 1fr;
+    }
+
+    .info {
+        width: 360px;
+        line-height: 1.7;
     }
 
     .attribution {
