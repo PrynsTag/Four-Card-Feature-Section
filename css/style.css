@@ -25,6 +25,7 @@ body {
     max-width: 100%;
     text-align: center;
     background-color: var(--light-gray);
+    overflow: hidden;
 }
 
 
@@ -125,7 +126,7 @@ body {
 /* ----------------------------------------------------------- */
 @media only screen and (max-width: 1832px) {
     .wrapper {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(3, 1fr);
     }
 
     .info {
@@ -144,6 +145,28 @@ body {
         bottom: -555px;
         width: 100%;
     }
+}
+
+@media only screen and (max-width: 1440px) {
+    .supervisor { left: 100px; }
+
+    .calculator { right: 100px; }
+}
+
+@media only screen and (max-width: 1360px) {
+    body {
+        overflow: scroll;
+    }
+
+    .wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .supervisor { left: 0; }
+
+    .calculator { right: 0; }
+
+
 }
 
 @media only screen and (max-width: 600px) {
