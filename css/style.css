@@ -173,16 +173,15 @@ body {
     .info { width: 360px; }
 }
 
-@media only screen and (max-width: 425px) {
-    .card {
-        width: 380px;
-        height: 280px;
-    }
-
+@media only screen and (max-width: 404px) {
     .main-title { font-size: 90%; }
 }
 
 @media only screen and (max-width: 380px) {
+    .main-title { font-size: 80%; }
+
+    .info {font-size: 80%;}
+
     .card {
         width: 310px;
         height: 260px;
